@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="AutomaticStub/lib/automaticstubprocessor.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/AutomaticStub/ExportProcessor.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=AutomaticStub/src&lt;com.test.autostub{GenerateStub.java"/>
+        <javaElement handleIdentifier="=AutomaticStub/src&lt;com.test.autostub{GenerateStubProcessor.java"/>
+        <javaElement handleIdentifier="=mto-core/src\/main\/java&lt;com.priceminister.mto.core.annotation.processor"/>
+        <javaElement handleIdentifier="=AutomaticStub/ressources"/>
+        <folder path="/mto-core/src/main/resources/META-INF"/>
+        <javaElement handleIdentifier="=mto-core/src\/main\/java&lt;com.priceminister.mto.core.annotation"/>
+    </selectedElements>
+</jardesc>
